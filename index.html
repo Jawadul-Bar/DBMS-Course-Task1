@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picnic Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="section">
+        <div class="image">
+        <img src="ciu logo.png" alt="CIU Logo" width="125px" height="125px">
+        </div>
+        <h3>CIU Annual Picnic Registration Form</h3>
+        <p class="para">Embark on a thrilling day of joy and bond at the CIU Annual Picnic adventure! Gear up for an unforgettable experience by completing this form and securing your spot in the excitement.</p>
+        <h4>Picnic Details:</h4>
+        <ul >
+            <li>Date: 05/02/2024</li>
+            <br>
+            <li>Location: Radiant Fish World, Inani Beach, Himchori, Marine Drive.</li>
+            <br>
+            <li>Registration Fee: 1500 taka per person.</li>
+            <br>
+            <li>Meeting Point: CIU Campus Main Gate</li>
+            <br>
+            <li>Bring: Student ID Card, Necessary Medicines, Extra Dresses.</li>
+            <br>
+        </ul>
+        <hr>
+        <p><small><i>Note: All fields with asterisk (*) are mandatory.</i></small></p>
+        <form action="">
+            <fieldset>
+                <legend>Registration Section</legend>
+            <ol>
+                <li><strong>Participant Information:</strong>
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Full Name*: <br>
+                            <input type="text" placeholder="Your Name" required></li>
+                        <br>
+                        <li>Gender*: 
+                            <br>
+                            <label>
+                                <input type="radio" name="gender" value="male" checked required>
+                                Male
+                            </label>
+                        
+                            <label>
+                                <input type="radio" name="gender" value="female" required>
+                                Female
+                            </label>
+                        </li>
+                        <br>
+                        <li>Student ID Number*: 
+                            <br>
+                            <input type="number" placeholder="Your Student ID No." required></li>
+                        <br>
+                        <li>Contact Number*: 
+                            <br>
+                            <input type="number" placeholder="Your Contact Number" required></li>
+                        <br>
+                        <li>Email*: 
+                            <br>
+                            <input type="email" placeholder="Your Email Address" required></li>
+                        <br>
+                        <li>Current Semester: 
+                            <br>
+                            <input type="number" placeholder="Your Current Semester"></li>
+                        <br>
+                        <li>
+                            Blood Group: <br>
+                            <select name="bg" id="bg">
+                                <option value="Select">Select</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                                <option value="unknown">Unknown</option>
+                            </select>
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Emergency Contact: </strong>
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Name*: 
+                            <br>
+                            <input type="text" placeholder="Name" required></li>
+                        <br>
+                        <li>Relationship: <br>
+                            <input type="text" placeholder="Relationship"></li>
+                        <br>
+                        <li>Contact Number*: 
+                            <br>
+                            <input type="number" placeholder="Contact Number" required></li>
+                        <br>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Preferences: 
+                    </strong>
+                    <br><br>
+                    <ul>
+                        <li>Picnic Activities: 
+                            <br>
+                            <select name="Activities" id="act">
+                            <option value="Select">Select</option>
+                            <option value="Cricket">Cricket</option>
+                            <option value="Football">Football</option>
+                            <option value="Musical Chair">Musical Chair</option>
+                        </select></li>
+                        <br>
+                        <li>
+                            Food Preferences: <br>
+                            <select name="food" id="food">
+                                <option value="Select">Select</option>
+                                <option value="Biriyani">Biriyani</option>
+                                <option value="Polao">Polao with Roast</option>
+                                <option value="Rice">Rice with Curries</option>
+                            </select>
+                        </li>
+                        <br>
+                        <li>
+                            Preferred Transport:
+                            <br>
+                            <select name="transport" id="transport">
+                                <option value="Select">Select</option>
+                                <option value="Train">Train</option>
+                                <option value="Bus">Bus</option>
+                            </select>
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Any Allergies or Medical Conditions*: 
+                        <br>
+                    </strong> <input type="text" placeholder="Your Health Condition" required>
+                </li>
+                <br>
+            </ol>
+            <fieldset>
+                <legend>Suggestions</legend>
+                <textarea name="" id="" cols="30" rows=""></textarea>
+            </fieldset>
+            <br>
+            <p class="para"><input type="checkbox" name="agree" required readonly>I hereby confirm that the information provided is accurate, and I agree to abide by the university's guidelines during the picnic.</p>
+            <br>
+            <button type="submit" value="Submit" class="button">I'm Ready</button>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
